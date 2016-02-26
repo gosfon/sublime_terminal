@@ -1,5 +1,15 @@
 # changelog
 
+## 1.10.1.2
+
+ - Added/updated `changelog.md`
+ - updated `readme.md`
+
+## 1.10.1.1
+
+ - Fork from [the original author](https://github.com/wbond/sublime_terminal)
+ - Fixed up bug that can not use the custom parameters passed by a key bindings in open_terminal command
+
 ## 1.10.1
 
  - Replaced `readme.creole` with `readme.md` based off of website

@@ -1,4 +1,7 @@
 # Sublime Terminal
+**This repository was Forked from [**the original author**](https://github.com/wbond/sublime_terminal)  
+All updates in this repository are already adopted in there. Therefore, it is happy to use above.
+**
 
 Shortcuts and menu entries for opening a terminal at the current file, or the current root project folder in [Sublime Text](http://sublimetext.com/).
 
@@ -9,7 +12,11 @@ Shortcuts and menu entries for opening a terminal at the current file, or the cu
 
 ## Installation
 
-Download [Package Control](https://packagecontrol.io/) and use the *Package Control: Install Package* command from the command palette. Using Package Control ensures Terminal will stay up to date automatically.
+```bash
+  # '$SublimeTextDir' is you Sublime Text install directory
+  cd $SublimeTextDir/Data/Packages
+  git clone https://github.com/gosfon/sublime_terminal Terminal
+```
 
 ## Usage
 
