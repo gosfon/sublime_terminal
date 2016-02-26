@@ -1,9 +1,9 @@
+import locale
+import os
 import sublime
 import sublime_plugin
-import os
-import sys
 import subprocess
-import locale
+import sys
 
 if os.name == 'nt':
     try:
@@ -157,7 +157,8 @@ class OpenTerminalCommand(sublime_plugin.WindowCommand, TerminalCommand):
         if not path:
             return
 
-        parameters = get_setting('parameters', [])
+        if not parameters:
+            parameters = get_setting('parameters', [])
 
         if os.path.isfile(path):
             path = os.path.dirname(path)
